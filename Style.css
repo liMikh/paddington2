@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #f1f1f8;
+    color: rgb(192, 81, 17);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+/*     font: optional; */
+}
+
+a {
+color: rgb(148, 189, 223);
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+a:visited {
+    color: gray;
+}
+.photo {
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 045);
+}
+
+.info p{
+    color: #86898f;
+    ;
+    margin: 0;
+    font-style: normal;
+    /* font-weight: bold; */
+    text-decoration: none;
+    /* text-transform: lowercase;
+    letter-spacing: 6px;
+    word-spacing: 30px; */
+}
+    
+
+/* BOX MODEl */
+
+.container {
+    padding-top: 20px;
+    max-width: 750px;
+    margin: auto;
+
+}
+
+/* .social {
+    background: rgb(235, 131, 34);
+    padding: 10px;
+    border: 3px solid black;
+    /* margin: 1; */
+    /* border-bottom-style: dotted;
+} */ 
+
+/* .box-model div { 
+    float: left;
+    background: black; 
+    height: 200px; 
+    width: 25%;
+    border: 10px solid red;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7 ;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.card {
+    padding: 15px 20 px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    color: #5d6066;
+}
+.card h2 {
+    margin-bottom: 10 px;
+    color: rgb(192, 81, 17);
+}
+
+.list {
+  padding: 2px; 
+  list-style: none; 
+}
+
+.list li {
+    color: #5d6066;
+    margin-bottom: 10px;
+
+}
+
+.card h1 {
+    color: rgb(148, 189, 223);
+}
+
+.table {
+    width: 95%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    /* margin- bottom: 5px;
+    border-bottom: 1px solid #ccc; */
+}
+.contact h2 {
+ text-align: left;
+}
+
+.form-group {
+    display: block;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 40%;
+}
+
+.btn {
+    background: rgb(192, 81, 17);
+    padding: 6px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+    position: relative;
+    border: 4px solid black ;
+    margin-top: 50px;
+    padding: 120px;
+}
+
+.box    {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    height: 50px;
+    background: lightcoral;
+} */
